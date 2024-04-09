@@ -7,23 +7,23 @@ $(document).ready(function(){
                 margin: 32,
                 loop: true,
                 dots: false,
+	    },
                 
             // breakpoint from 480 up
             601 : {
                 items : 3,
                 margin: 32,
-				loop: true,
-				dots: false,
+		loop: true,
+		dots: false,
             },
             // breakpoint from 768 up
             1001 : {
                 items : 3,
                 margin: 48,
                 loop: true,
-				dots: false,
+		dots: false,
             },
         },
-    },
 
     });
   });
